@@ -87,7 +87,9 @@ Nazwa pliku : /usr/sbin/ifconfig
 ### Lista zainstalowanych pakietów
 
 ```
-dnf list installed
+$ dnf list installed
+
+zsh.x86_64                                    5.8.1-1.fc35                         @updates
 ```
 
 ### Lista zainstalowanych pakietów przez użytkownika
@@ -95,5 +97,7 @@ dnf list installed
 Pominięte zostaną pakiety zainstalowane przy instalacji oraz zależności.
 
 ```
-dnf history userinstalled
+$ dnf history userinstalled
+
+zsh-5.8.1-1.fc35.x86_64
 ```
