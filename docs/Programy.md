@@ -26,3 +26,5 @@ Lista programów dla systemu Linux
 - [broot](https://github.com/Canop/broot) - poruszanie się po katalogach
 - [lf](https://github.com/gokcehan/lf) - terminalowy menadżer plików
 - [gocryptfs](https://github.com/rfjakob/gocryptfs) - szyfrowanie plików
+- [kopia](https://github.com/kopia/kopia) - program do kopii zapasowych
+- [rclone](https://github.com/rclone/rclone) - wykonywanie kopii zapasowych w chmurze
