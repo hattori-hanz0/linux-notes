@@ -35,7 +35,7 @@ $ sudo dnf update
 ### Sprawdzenie czy ostatnia aktualizacja zawierała aktualizację kernela
 
 ```
-dnf history info last|grep kernel-core
+$ dnf history info last|grep kernel-core
 ```
 
 ## Wyświetlenie informacji o pakiecie
@@ -82,4 +82,18 @@ net-tools-2.0-0.60.20160912git.fc35.x86_64 : Basic networking tools
 Repozytorium       : @System
 Dopasowano z:
 Nazwa pliku : /usr/sbin/ifconfig
+```
+
+### Lista zainstalowanych pakietów
+
+```
+dnf list installed
+```
+
+### Lista zainstalowanych pakietów przez użytkownika
+
+Pominięte zostaną pakiety zainstalowane przy instalacji oraz zależności.
+
+```
+dnf history userinstalled
 ```
