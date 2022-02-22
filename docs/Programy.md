@@ -28,3 +28,5 @@ Lista programów dla systemu Linux
 - [gocryptfs](https://github.com/rfjakob/gocryptfs) - szyfrowanie plików
 - [kopia](https://github.com/kopia/kopia) - program do kopii zapasowych
 - [rclone](https://github.com/rclone/rclone) - wykonywanie kopii zapasowych w chmurze
+- [restic](https://github.com/restic/restic) - tworzenie szyfrowanych kopii zapasowych
+- [minio](https://min.io/) - serwer plików kompatybilny z S3
