@@ -32,7 +32,7 @@ $ sudo dnf remove <nazwa pakietu>
 $ sudo dnf update
 ```
 
-### Sprawdzenie czy ostatnia aktualizacja zawierała aktualizację kernela
+### Sprawdzenie czy ostatnia aktualizacja zawierała aktualizację jądra systemu
 
 ```
 $ dnf history info last|grep kernel-core
