@@ -149,3 +149,17 @@ run_depends:
 short_desc: Opinionated helpers for working with XBPS
 source-revisions: xtools:0db3fef018
 ```
+
+## Wyłączenie uśpienia przy zamkniętym ekranie Laptopa
+
+```
+echo $(grep LID /proc/acpi/wakeup | awk '{print $4}' | cut -f 2,3 -d ':') >> /etc/rc.local
+```
+
+w pliku `/etc/rc.local` dodajemy:
+
+```
+echo PNP0C0D:00 > /sys/bus/acpi/drivers/button/unbind
+```
+
+gdzie `PNP0C0D:00` to wartość pobrana z pliku `/proc/acpi/wakeup` za pomocą pierwszego polecenia.
