@@ -24,7 +24,7 @@ konfigurację.
 
 Tutaj stworzymy własną nazwę hosta np: `github-hattori`, która będzie rozwiązywana na nazwę hosta
 `github.com` za pomocą parametru `Hostname`, kolejnym parametrem jest `User` gdzie ustawiamy swoją
-nazwę użytkownika, ostatnim parametrem jest `IdentityFile` czyli ścieżkę i nazwę pliku klucza SSH.
+nazwę użytkownika, ostatnim parametrem jest `IdentityFile` wskazujący na plik klucza SSH.
 
 ```
 Host github-hattori
