@@ -47,8 +47,16 @@ $ vpm install -S [nazwa pakietu]
 
 ## Lista zainstalowanych pakietów
 
+Lista zainstalowanych pakietów wraz ich wersją
+
 ```
 $ xbps-query -l
+```
+
+Lista zainstalowanych pakietów bez wersji + zapisanie w pliku
+
+```
+$ xbps-query -l | cut -f 2 -d ' ' | xargs -n1 xbps-uhelper getpkgname > lista-pakietow.txt
 ```
 
 ## Lista ręcznie zainstalowanych pakietów
