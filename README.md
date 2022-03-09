@@ -4,3 +4,4 @@
 - [Void Linux](docs/Void.md)
 - [Zarządzanie pakietami w systemie Fedora / CentOS](docs/DNF-YUM-RPM.md)
 - [Flatpak](docs/Flatpak.md)
+- [Git](docs/Git.md)
