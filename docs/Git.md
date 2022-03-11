@@ -44,3 +44,22 @@ dla tego repozytorium URL będzie wyglądał tak:
 ```
 git clone git@github-hattori:hattori-hanz0/linux-notes
 ```
+
+## Skrypt gp.sh
+
+```
+#!/usr/bin/env bash
+
+DATA=$(date +%F-%T)
+
+if [ $# -eq 1 ]; then
+    KATALOG=$(readlink -m $(dirname "$1"))
+    cd "$KATALOG"
+fi
+
+if [ "$(basename $0)" == "gps" ]; then
+    git add -A && git commit -S -m $DATA && git push
+else
+    git add -A && git commit -m $DATA && git push
+fi
+```
