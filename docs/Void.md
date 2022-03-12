@@ -177,3 +177,18 @@ gdzie `PNP0C0D:00` to wartość pobrana z pliku `/proc/acpi/wakeup` za pomocą p
 ```
 vpm install neovim neovim-qt xsel
 ```
+
+## Uruchomienie cron
+
+Instalacja cronie
+
+```
+sudo vpm install cronie
+```
+
+Uruchomienie usługi
+
+```
+sudo ln -s /etc/sv/crond /etc/service
+sudo sv start crond
+```
