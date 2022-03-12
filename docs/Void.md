@@ -171,3 +171,9 @@ echo PNP0C0D:00 > /sys/bus/acpi/drivers/button/unbind
 ```
 
 gdzie `PNP0C0D:00` to wartość pobrana z pliku `/proc/acpi/wakeup` za pomocą pierwszego polecenia.
+
+## Instalacja Neovim
+
+```
+vpm install neovim neovim-qt xsel
+```
