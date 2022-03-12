@@ -63,3 +63,8 @@ else
     git add -A && git commit -m $DATA && git push
 fi
 ```
+
+```
+alias gp="~/bin/gp.sh"
+alias gps="~/bin/gp.sh"
+```
