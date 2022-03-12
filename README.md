@@ -6,3 +6,4 @@
 - [Flatpak](docs/Flatpak.md)
 - [Git](docs/Git.md)
 - [RS232](docs/RS232.md)
+- [SSH](docs/SSH.md)
