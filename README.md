@@ -5,3 +5,4 @@
 - [Zarządzanie pakietami w systemie Fedora / CentOS](docs/DNF-YUM-RPM.md)
 - [Flatpak](docs/Flatpak.md)
 - [Git](docs/Git.md)
+- [RS232](docs/RS232.md)
