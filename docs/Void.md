@@ -47,8 +47,16 @@ $ vpm install -S [nazwa pakietu]
 
 ## Lista zainstalowanych pakietów
 
+Lista zainstalowanych pakietów wraz ich wersją
+
 ```
 $ xbps-query -l
+```
+
+Lista zainstalowanych pakietów bez wersji + zapisanie w pliku
+
+```
+$ xbps-query -l | cut -f 2 -d ' ' | xargs -n1 xbps-uhelper getpkgname > lista-pakietow.txt
 ```
 
 ## Lista ręcznie zainstalowanych pakietów
@@ -163,3 +171,24 @@ echo PNP0C0D:00 > /sys/bus/acpi/drivers/button/unbind
 ```
 
 gdzie `PNP0C0D:00` to wartość pobrana z pliku `/proc/acpi/wakeup` za pomocą pierwszego polecenia.
+
+## Instalacja Neovim
+
+```
+vpm install neovim neovim-qt xsel
+```
+
+## Uruchomienie cron
+
+Instalacja cronie
+
+```
+sudo vpm install cronie
+```
+
+Uruchomienie usługi
+
+```
+sudo ln -s /etc/sv/crond /etc/service
+sudo sv start crond
+```
