@@ -31,4 +31,8 @@ Host tasksrv
 	LocalForward 53589 localhost:53589
 	ServerAliveInterval 30
 	ServerAliveCountMax 3
+
+Host 192.168.2.222
+    User qwerty
+    HostKeyAlgorithms=+ssh-dss
 ```
