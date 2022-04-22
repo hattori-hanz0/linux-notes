@@ -18,6 +18,8 @@ Lista programów dla systemu Linux
 - [gh](https://cli.github.com/) - oficjalny klient Github CLI
 - [dwm](https://dwm.suckless.org) - tiling window manager
 - [dwm-flexipatch](https://github.com/bakkeby/dwm-flexipatch) - DWM dla opornych
+- [MachWM](https://github.com/Mach-OS/MachWM) DWM wersja z nałożonymi łatkami
+- [dwm-lukesmith](https://github.com/LukeSmithxyz/dwm) DWM wersja z nałożonymi łatkami
 - [awesome wm](https://awesomewm.org/) - Awesome WM
 - [fzf](https://github.com/junegunn/fzf) fuzzy finder
 - [sk](https://github.com/lotabout/skim) fzf napisany w rust
