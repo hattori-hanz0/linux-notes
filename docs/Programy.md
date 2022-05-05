@@ -10,8 +10,8 @@ Lista programów dla systemu Linux
 - [starship](https://starship.rs) - bajerancki PROMPT dla opornych
 - [zsh](https://www.zsh.org) - powłoka systemowa
 - [fish](https://fishshell.com) - powłoka systemowa
-- [fd](https://github.com/sharkdp/fd) - bajerancki `find`
-- [rg](https://github.com/BurntSushi/ripgrep) - bajerancki `grep`
+- [fd](https://github.com/sharkdp/fd) (fd-find) - bajerancki `find`
+- [rg](https://github.com/BurntSushi/ripgrep) (ripgrep) - bajerancki `grep`
 - [sd](https://github.com/chmln/sd) - bajerancki `sed`
 - [st](https://st.suckless.org/) - emulator terminala
 - [alacritty](https://github.com/alacritty/alacritty) - emulator terminala
